@@ -5,6 +5,7 @@ import com.provider_other.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -28,5 +29,14 @@ public class StudentController {
     @GetMapping(value = "/detail")
     public Student getStudent () {
         return studentService.getStudent();
+    }
+
+    /**
+     *  获取一个学生
+     * @return JSON对象
+     * */
+    @GetMapping(value = "/mybatis")
+    public Student getMybatis (@RequestParam("name") String name) {
+        return studentService.getStudentByName(name);
     }
 }

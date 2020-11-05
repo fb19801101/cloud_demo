@@ -3,10 +3,15 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider_other/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider_other/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/register/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/register/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

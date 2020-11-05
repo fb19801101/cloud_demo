@@ -4,6 +4,7 @@ import com.feign.entity.Student;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * @author 信息化管理部-方波
@@ -17,4 +18,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public interface StudentService {
     @GetMapping("/student/detail")
     Student showStudent();
+
+    @GetMapping("/student/mybatis")
+    Student showStudentByName(@RequestParam("name") String name);
 }
